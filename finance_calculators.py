@@ -138,7 +138,9 @@ def ending():
         print("Thanks for using this service! Goodbye!")
         end_speech()
 
-
+def main():
+    intro()
 
 #Actually run the system
-intro()
+if __name__ =="__main__" :
+    main()
